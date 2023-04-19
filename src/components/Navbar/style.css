@@ -1,0 +1,8 @@
+.dropdown-toggle::after {
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    padding-bottom: 0px;
+}
+
