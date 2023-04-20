@@ -18,7 +18,7 @@ import Success from "./pages/Success";
 import Cancel from "./pages/Cancel";
 
 const client = new ApolloClient ({ 
-    uri: 'https://flying-lugnut-client.onrender.com',
+    uri: 'https://flying-lugnut-client.onrender.com/graphql',
     cache: new InMemoryCache(),
 });
 
