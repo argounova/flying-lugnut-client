@@ -19,10 +19,10 @@ const Footer = () => {
             <Row>
                 <Col sm={2}>
                     <Stack>
-                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="http://localhost:3000/coming-soon">About Us</a>
-                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="http://localhost:3000/coming-soon">Blogs</a>
-                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="http://localhost:3000/coming-soon">Contact Us</a>
-                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="http://localhost:3000/coming-soon">Store</a>
+                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="/coming-soon">About Us</a>
+                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="/coming-soon">Blogs</a>
+                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="/coming-soon">Contact Us</a>
+                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="/coming-soon">Store</a>
                     </Stack>
                 </Col>
                 <Col sm={8}>
@@ -43,15 +43,15 @@ const Footer = () => {
                             className="me-2"
                             aria-label="Search"
                             />
-                            <Button variant="danger" href="http://localhost:3000/coming-soon">Subscribe</Button>
+                            <Button variant="danger" href="/coming-soon">Subscribe</Button>
                         </Form>
                     </Stack>
                 </Col>
                 <Col sm={2}>
                     <Stack>
                         <p style={{ color: '#FFFFFF', fontSize: '1.25rem' }}>Partners</p>
-                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="http://localhost:3000/coming-soon">Digital Motorsport Solutions</a>
-                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="http://localhost:3000/coming-soon">Willow Photo Works</a>
+                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="/coming-soon">Digital Motorsport Solutions</a>
+                        <a style={{ color: '#FFFFFF', textDecoration: 'none' }} href="/coming-soon">Willow Photo Works</a>
                     </Stack>
                 </Col>
             </Row>

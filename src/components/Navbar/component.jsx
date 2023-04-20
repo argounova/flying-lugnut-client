@@ -39,7 +39,7 @@ const Navigation = () => {
         <>
             <Navbar collapseOnSelect expand="sm" variant="dark" style={{ background: '#005490'}}>
                 <Container fluid>
-                    <Navbar.Brand href="http://localhost:3000/">
+                    <Navbar.Brand href="/">
                         <img
                             alt=""
                             src={Logo}
@@ -55,7 +55,7 @@ const Navigation = () => {
                         className="me-2"
                         aria-label="Search"
                         />
-                        <Button variant="outline-light" href="http://localhost:3000/coming-soon">Search</Button>
+                        <Button variant="outline-light" href="/coming-soon">Search</Button>
                     </Form>
                     <Navbar.Toggle aria-controls="toggle-nav"/>
                         <Navbar.Collapse 
@@ -63,9 +63,9 @@ const Navigation = () => {
                             id="toggle-nav"
                         >
                             <Nav>
-                                <Nav.Link href="http://localhost:3000/new-inventory" style={{ color: '#F1D74D'}}>New Inventory</Nav.Link>
-                                <Nav.Link href="http://localhost:3000/browse-all" style={{ color: '#FFFFFF'}}>Browse All</Nav.Link>
-                                <Nav.Link href="http://localhost:3000/coming-soon" style={{ color: '#FFFFFF'}}>Clearance</Nav.Link>
+                                <Nav.Link href="/new-inventory" style={{ color: '#F1D74D'}}>New Inventory</Nav.Link>
+                                <Nav.Link href="/browse-all" style={{ color: '#FFFFFF'}}>Browse All</Nav.Link>
+                                <Nav.Link href="/coming-soon" style={{ color: '#FFFFFF'}}>Clearance</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     <Nav>
@@ -87,7 +87,7 @@ const Navigation = () => {
                                     ))}
                                 </>
                             </Dropdown.Item>
-                            <Dropdown.Item href="http://localhost:3000/cart" style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '1.25rem', backgroundColor: '#F1D74D', borderRadius: '5px', border: 'solid #F1D74D 1px' }}>View Cart</Dropdown.Item>
+                            <Dropdown.Item href="/cart" style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '1.25rem', backgroundColor: '#F1D74D', borderRadius: '5px', border: 'solid #F1D74D 1px' }}>View Cart</Dropdown.Item>
                         </DropdownButton>
                     </Nav>
                 </Container>
